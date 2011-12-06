@@ -17,3 +17,5 @@ module Mag
     Maglev::PERSISTENT_ROOT[:box] = this
   end
 end
+
+extend Mag
