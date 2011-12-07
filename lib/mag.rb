@@ -13,5 +13,9 @@ class Mag
     def box
       Maglev::PERSISTENT_ROOT
     end
+    
+    def box= this
+      Maglev::PERSISTENT_ROOT.replace this
+    end
   end
 end
