@@ -12,11 +12,21 @@ I'm lazy, and "Mag.commit" saves me from typing 15 characters over "Maglev.commi
 
 ### First load the library:
 
-```ruby require 'rubygems'```
-```ruby require 'mag'```
+```ruby
+require 'rubygems'
+```
+```ruby
+require 'mag'
+```
 
 ### Now you have Mag's shorten Maglev commands:
 
-```ruby Mag.commit # Maglev.commit_transaction```
-```ruby Mag.abort  # Maglev.abort_transaction```
-```ruby Mag.box    # Maglev::PERSISTENT_ROOT```
+```ruby
+Mag.commit # Maglev.commit_transaction
+```
+```ruby
+Mag.abort  # Maglev.abort_transaction
+```
+```ruby 
+Mag.box    # Maglev::PERSISTENT_ROOT
+```
