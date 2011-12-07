@@ -19,7 +19,7 @@ require 'rubygems'
 require 'mag'
 ```
 
-### Now you have Mag's shorten Maglev commands:
+### Now you have Mag's shorter Maglev commands:
 
 ```ruby
 Mag.commit # Maglev.commit_transaction
