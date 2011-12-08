@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Mag::VERSION
   s.authors     = ["Shannon Skipper"]
   s.email       = ["shannonskipper@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/Havenwood/mag"
   s.summary     = %q{Shortcuts for Maglev's Persistent Store'}
   s.description = %q{Load a tiny gem to save typing a few characters when committing or aborting in Maglev? Why not!? =P}
 
