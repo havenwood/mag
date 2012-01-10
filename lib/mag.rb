@@ -21,7 +21,7 @@ module Mag
     alias store box
     
     def box= this
-      Maglev::PERSISTENT_ROOT.replace this
+      class_eval "Maglev::PERSISTENT_ROOT = this"
     end
     
     alias store= box=
