@@ -1,6 +1,6 @@
 require "mag/version"
 
-class Mag
+module Mag
   class << self
     def commit
       Maglev.commit_transaction

@@ -1,3 +1,3 @@
-class Mag
-  VERSION = "0.3.0"
+module Mag
+  VERSION = "0.3.1"
 end
